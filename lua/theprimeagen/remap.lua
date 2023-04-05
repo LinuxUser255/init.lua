@@ -1,4 +1,4 @@
-
+-- For explinations see https://youtu.be/w7i4amO_zaE and skip to 24:24 The Best remaps
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
@@ -7,11 +7,17 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 -- Example: taking some lines of code and moving them into an if statement
 -- The lines auto indent when you are done moving them.
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+-- J takes the line below and appends it to your current line with a space
+-- And this one keeps your cursor in one place dispite movving other lines
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 vim.keymap.set("n", "J", "mzJ`z")
+-- The two below keeps the cursor in the middle when scrolling with ctrl + d & u
+-- Makes searching the file less disorienting.
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
+-- Make search terms stay in the middle when searching the file for characters, text, etc..
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
@@ -23,6 +29,8 @@ vim.keymap.set("n", "<leader>svwm", function()
 end)
 
 -- greatest remap ever
+-- Pasting highlighted text over a pre-selected highligted text
+-- Deletes highlighted word into the 'void' register and then paste it over.
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
 -- next greatest remap ever : asbjornHaland
