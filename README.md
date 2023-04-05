@@ -19,7 +19,7 @@ Video walkthrough of how to config your NeoVim like ThePrimeagen: https://youtu.
 - Open the fuzzy finder from within a neovim file (accessed via netrw): `Ctrl + p`
 - Scroll up and down within the fuzzy finder using `up and down arrow keys` and typing the file name
 - Open up the file tree without closing the file you are in. use the cmd `:Vex` vertical explore. (split window).
-- Hop left-right between windows: enter *window mode* `ctrl + w` then `ctrl + l` to go right & `ctrl + h` go left.
+- Hop left-right between windows: enter *window mode* `ctrl + w` then `l` to go right & `ctrl + w` + `h` go left.
 
 ---
 For anyone that is interested in Prime's vimrc, he will have a commit log below
