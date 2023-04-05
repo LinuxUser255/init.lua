@@ -2,6 +2,10 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
+-- when highlighting a line, press shift + j or k 
+-- and yoiu can move an entite line or lines up or down.
+-- Example: taking some lines of code and moving them into an if statement
+-- The lines auto indent when you are done moving them.
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
