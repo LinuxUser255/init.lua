@@ -1,6 +1,10 @@
 -- For explinations see https://youtu.be/w7i4amO_zaE and skip to 24:24 The Best remaps
 vim.g.mapleader = " "
+
+-- Project view
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+-- split window vertically : Vex
+vim.keymap.set("n", "<leader>ve", vim.cmd.Vex)
 
 -- when highlighting a line, press shift + j or k 
 -- and yoiu can move an entite line or lines up or down.
