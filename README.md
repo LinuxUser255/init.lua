@@ -6,6 +6,12 @@ Video walkthrough of how to config your NeoVim like ThePrimeagen: https://youtu.
 - What the file structure looks like:
 
 ![init lua](https://user-images.githubusercontent.com/46334926/230166494-c42825b4-7a2e-4d62-b89a-b7bde9c62326.png)
+---
+
+### Navigating netrw.
+- Close a file `leader pv` *the leader key is the spacebar*
+- Open the fuzzy finder from within a neovim file (accessed via netrw): `Ctrl + p`
+- Scroll up and down within the fuzzy finder using `up and down arrow keys` and typing the file name
 
 ---
 For anyone that is interested in Prime's vimrc, he will have a commit log below
