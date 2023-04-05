@@ -10,6 +10,7 @@ Video walkthrough of how to config your NeoVim like ThePrimeagen: https://youtu.
 
 ### Navigating netrw.
 - Close a file `leader pv` *the leader key is the spacebar*
+- Fuzzy find while in netrw `leader pf`
 - Open the fuzzy finder from within a neovim file (accessed via netrw): `Ctrl + p`
 - Scroll up and down within the fuzzy finder using `up and down arrow keys` and typing the file name
 
