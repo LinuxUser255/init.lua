@@ -8,8 +8,12 @@ Video walkthrough of how to config your NeoVim like ThePrimeagen: https://youtu.
 ![init lua](https://user-images.githubusercontent.com/46334926/230166494-c42825b4-7a2e-4d62-b89a-b7bde9c62326.png)
 ---
 
+[Click here for NeoVim documentation on netrw:](https://neovim.io/doc/user/pi_netrw.html#:~:text=Netrw%20makes%20reading%20files%2C%20writing,plugin%20on%20%22%20plugins%20are%20enabled)
+
 ### Navigating netrw.
 - Enter netrw from the terminal: `nvim . `
+- Scroll using `j and k`, (up and down)
+- Select / open a file or dir with `Enter`
 - Close a file `leader pv` *the leader key is the spacebar*
 - Fuzzy find while in netrw `leader pf`
 - Open the fuzzy finder from within a neovim file (accessed via netrw): `Ctrl + p`
