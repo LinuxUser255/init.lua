@@ -4,6 +4,7 @@ Prerequisite: install [ripgrep](https://github.com/BurntSushi/ripgrep).
 Video walkthrough of how to config your NeoVim like ThePrimeagen: https://youtu.be/w7i4amO_zaE
 
 - What the file structure looks like:
+- I have since installed Tabnine
 
 ![init lua](https://user-images.githubusercontent.com/46334926/230166494-c42825b4-7a2e-4d62-b89a-b7bde9c62326.png)
 ---
