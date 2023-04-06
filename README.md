@@ -5,7 +5,7 @@ Video walkthrough of how to config your NeoVim like ThePrimeagen: https://youtu.
 
 - What the file structure looks like:
 - I have since installed Tabnine
-
+- https://github.com/LinuxUser255/BashAndLinux/blob/main/Tabnine_Install.md
 ![init lua](https://user-images.githubusercontent.com/46334926/230166494-c42825b4-7a2e-4d62-b89a-b7bde9c62326.png)
 ---
 
