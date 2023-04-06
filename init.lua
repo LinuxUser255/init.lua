@@ -1,5 +1,6 @@
 require("theprimeagen")
 
+-- run the comannd :TabnineHub after all tabnine code has been saved and sourced
 
 require('tabnine').setup({
   disable_auto_comment=true,
