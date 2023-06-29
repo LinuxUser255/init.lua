@@ -8,7 +8,7 @@
   sudo apt install rg
   ```
 * **[Use the latest version of Zsh](https://zsh.sourceforge.io/Arc/source.html)** <-- Link
-* You will need a recent version of NeoVim too, the ones in the apt repos are too old.
+* You will need a recent version of **NeoVim** too, the ones in the apt repos are too old.
 * Download the most recent **[nvim-linux64.tar.gz](https://github.com/neovim/neovim/releases/)** <-- Link, then follow the install instructions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
