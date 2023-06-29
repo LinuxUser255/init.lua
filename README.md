@@ -1,17 +1,32 @@
-### ThePrimeagen's init.lua
-Prerequisite: install [ripgrep](https://github.com/BurntSushi/ripgrep).
+# ThePrimeagen's init.lua
 
-Video walkthrough of how to config your NeoVim like ThePrimeagen: https://youtu.be/w7i4amO_zaE
+<!-- GETTING STARTED -->
+## Getting Started
+### Install the following:
+* **[ripgrep](https://github.com/BurntSushi/ripgrep)**
+  ```sh
+  sudo apt install rg
+  ```
+* **[Use the latest version of Zsh](https://zsh.sourceforge.io/Arc/source.html)** <-- Link
+* You will need a recent version of NeoVim too, the ones in the apt repos are too old.
+* Download the most recent **[nvim-linux64.tar.gz](https://github.com/neovim/neovim/releases/)** <-- Link, then follow the install instructions.
 
-- What the file structure looks like:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Installation Video walkthrough by ThePrimeagen:
+**How to create this init.lua from scratch: https://youtu.be/w7i4amO_zaE**
+
+
 - I have since installed Tabnine
-- https://github.com/LinuxUser255/BashAndLinux/blob/main/Tabnine_Install.md
+- **[How to install Tabnine in NeoVim: Detailed instructions. Click here.](https://github.com/LinuxUser255/BashAndLinux/blob/main/Tabnine_Install.md)**
+- What the file structure looks like:
+  
 ![init lua](https://user-images.githubusercontent.com/46334926/230166494-c42825b4-7a2e-4d62-b89a-b7bde9c62326.png)
 ---
 
-[Click here for NeoVim documentation on netrw:](https://neovim.io/doc/user/pi_netrw.html#:~:text=Netrw%20makes%20reading%20files%2C%20writing,plugin%20on%20%22%20plugins%20are%20enabled)
+**[Click here for NeoVim documentation on netrw:](https://neovim.io/doc/user/pi_netrw.html#:~:text=Netrw%20makes%20reading%20files%2C%20writing,plugin%20on%20%22%20plugins%20are%20enabled)**
 
-### Navigating netrw.
+### How to use netrw. The basics.
 - Enter netrw from the terminal: `nvim . `
 - Scroll using `j and k`, (up and down)
 - Select / open a file or dir with `Enter`
