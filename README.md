@@ -16,6 +16,11 @@
 ## Installation Video walkthrough by ThePrimeagen:
 **How to create this init.lua from scratch: https://youtu.be/w7i4amO_zaE**
 
+**_Coming soon:_**
+```
+I will be adding written directions here shortly, and more netrw navigation cmds.
+```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 - I have since installed Tabnine
 - **[How to install Tabnine in NeoVim: Detailed instructions. Click here.](https://github.com/LinuxUser255/BashAndLinux/blob/main/Tabnine_Install.md)**
