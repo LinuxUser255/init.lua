@@ -16,10 +16,11 @@
 ## Installation Video walkthrough by ThePrimeagen:
 **How to create this init.lua from scratch: https://youtu.be/w7i4amO_zaE**
 
-**_Coming soon:_**
-```
-I will be adding written directions here shortly, and more netrw navigation cmds.
-```
+### _Coming soon:_
+
+* There are some repos and files you must git clone before installing this init.lua.
+* I will be adding written directions here shortly, and more netrw navigation cmds.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 - I have since installed Tabnine
