@@ -11,17 +11,9 @@
 * You will need a recent version of **NeoVim** too, the ones in the apt repos are too old.
 * Download the most recent **[nvim-linux64.tar.gz](https://github.com/neovim/neovim/releases/)** <-- Link, then follow the install instructions.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Installation Video walkthrough by ThePrimeagen:
 **How to create this init.lua from scratch: https://youtu.be/w7i4amO_zaE**
 
-### _Coming soon:_
-
-* There are some repos and files you must git clone before installing this init.lua.
-* I will be adding written directions here shortly, and more netrw navigation cmds.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 - I have since installed Tabnine
 - **[How to install Tabnine in NeoVim: Detailed instructions. Click here.](https://github.com/LinuxUser255/BashAndLinux/blob/main/Tabnine_Install.md)**
