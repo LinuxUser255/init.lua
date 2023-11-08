@@ -5,7 +5,7 @@
 ### Install the following:
 * **[ripgrep](https://github.com/BurntSushi/ripgrep)** (It's in the Debian repos)
   ```sh
-  sudo apt-get install ripgrep
+  sudo apt install ripgrep
   ```
 * **[Use the latest version of Zsh](https://zsh.sourceforge.io/Arc/source.html)** <-- Link
 * You will need a recent version of **NeoVim** too, the ones in the apt repos are too old.
