@@ -26,6 +26,9 @@
 
 ### How to use netrw. The basics.
 - Enter netrw from the terminal: `nvim . `
+- Runtimepath: `:h rtp`
+- Create a new file: enter netrw: `nvim .` press the percent sign `%` then name it.
+- Create a directory, enter netrw `nvim .` then press d, then name it.
 - Scroll using `j and k`, (up and down)
 - Select / open a file or dir with `Enter`
 - Close a file `leader pv` *the leader key is the spacebar*
