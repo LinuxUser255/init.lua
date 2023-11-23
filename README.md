@@ -9,11 +9,11 @@
   ```
 * **[Use the latest version of Zsh](https://zsh.sourceforge.io/Arc/source.html)** <-- Link
 * You will need a recent version of **NeoVim** too, the ones in the apt repos are too old.
-* The most compatable version of NeoVim for this config, is NVIM v0.9.4
+* The most compatable version of NeoVim for this config, is **[NVIM v0.9.4](https://github.com/neovim/neovim/releases)**
 * Use these commands to install it, and u must have Packer installed alongside this `init.lua` repo too
 
 
-**Then you can git clone this repo in your home directory, and run the dev bash script to clean out your current nvim files**
+**- Then you can git clone this repo in your home directory, and run the dev bash script to clean out your current nvim files**
 ```bash
 #!/usr/bin/env bash
 
@@ -21,7 +21,7 @@
 rm -rf ~/.config/nvim
 ln -s $(pwd) ~/.config/nvim
 ```
-**Then install NVIM v0.9.4, and Packer**
+**- Then install NVIM v0.9.4, and Packer**
 ```bash
 wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
 chmod +x nvim.appimage
