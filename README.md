@@ -9,7 +9,27 @@
   ```
 * **[Use the latest version of Zsh](https://zsh.sourceforge.io/Arc/source.html)** <-- Link
 * You will need a recent version of **NeoVim** too, the ones in the apt repos are too old.
-* Download the most recent **[nvim-linux64.tar.gz](https://github.com/neovim/neovim/releases/)** <-- Link, then follow the install instructions.
+* The most compatable version of NeoVim for this config, is NVIM v0.9.4
+* Use these commands to install it, and u must have Packer installed alongside this `init.lua` repo too
+
+
+**Then you can git clone this repo in your home directory, and run the dev bash script to clean out your current nvim files**
+```bash
+#!/usr/bin/env bash
+
+# To start with a clean slate, you will need to delete and remove your current/previous neovim files and dirs.
+rm -rf ~/.config/nvim
+ln -s $(pwd) ~/.config/nvim
+```
+**Then install NVIM v0.9.4, and Packer**
+```bash
+wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
+chmod +x nvim.appimage
+sudo mv nvim.appimage /usr/local/bin/nvim
+
+# git clone packer
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\\n ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
 
 ## Installation Video walkthrough by ThePrimeagen:
 **How to create this init.lua from scratch: https://youtu.be/w7i4amO_zaE**
